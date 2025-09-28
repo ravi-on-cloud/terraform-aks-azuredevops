@@ -1,13 +1,13 @@
-# 🚀 Terraform AKS Deployment with Azure DevOps CI/CD  
+# Terraform AKS Deployment with Azure DevOps CI/CD  
 
-## 📌 Project Overview  
+## Project Overview  
 This project demonstrates how I automated the deployment of an **Azure Kubernetes Service (AKS) cluster** using **Terraform** integrated with **Azure DevOps Pipelines**.  
 
 The focus is on showcasing **Infrastructure as Code (IaC)** and **CI/CD automation** skills rather than the actual Terraform configuration. The Terraform code is kept private — this repository highlights the workflow, architecture, and results.  
 
 ---
 
-## 🎯 Objectives  
+## Objectives  
 - Showcase **cloud infrastructure automation** using Terraform.  
 - Build a **CI/CD pipeline in Azure DevOps** to run Terraform stages.  
 - Follow best practices by separating concerns (pipeline templates, configs, outputs).  
@@ -15,7 +15,7 @@ The focus is on showcasing **Infrastructure as Code (IaC)** and **CI/CD automati
 
 ---
 
-## 🛠️ Tools & Technologies  
+## Tools & Technologies  
 | Tool / Service | Purpose |
 |----------------|---------|
 | **Terraform** | Infrastructure as Code (IaC) |
@@ -26,7 +26,7 @@ The focus is on showcasing **Infrastructure as Code (IaC)** and **CI/CD automati
 
 ---
 
-## ⚙️ Pipeline Workflow  
+## Pipeline Workflow  
 The pipeline automates the full Terraform lifecycle inside Azure DevOps:  
 
 1. **Terraform Init** → Initializes providers and backend.  
@@ -37,19 +37,17 @@ The pipeline automates the full Terraform lifecycle inside Azure DevOps:
 
 ---
 
-## 📸 Screenshots  
+## Screenshots  
 
 ### Architecture Diagram  
 ![Architecture](screenshot/diagram.png)  
-🔗 [View Full Diagram](screenshot/diagram.png)  
 
 ### Pipeline Execution  
-![Pipeline Run](screenshot/azdevops.png)  
-🔗 [View Full Pipeline Screenshot](screenshot/azdevops.png)  
+![Pipeline Run](screenshot/azdevops.png)    
 
 ---
 
-## 📊 Key Outcomes  
+## Key Outcomes  
 - Automated provisioning of AKS with repeatable Terraform templates.  
 - CI/CD pipeline integrated directly into Azure DevOps.  
 - Clear separation of environments using variables and backend config.  
@@ -57,7 +55,7 @@ The pipeline automates the full Terraform lifecycle inside Azure DevOps:
 
 ---
 
-## 📖 What I Learned  
+## What I Learned  
 - How to integrate **Terraform workflows with Azure DevOps**.  
 - Managing infrastructure lifecycle via pipelines (init → apply → destroy).  
 - Writing **clean, reusable YAML templates** for pipelines.  
