@@ -11,7 +11,6 @@ The focus is on showcasing **Infrastructure as Code (IaC)** and **CI/CD automati
 - Showcase **cloud infrastructure automation** using Terraform.  
 - Build a **CI/CD pipeline in Azure DevOps** to run Terraform stages.  
 - Follow best practices by separating concerns (pipeline templates, configs, outputs).  
-- Present the project as a professional **portfolio case study**.  
 
 ---
 
